@@ -4,10 +4,11 @@ updates:
     directory: "/"
     schedule:
       interval: "daily"
-      timezone: "Asia/Tokyo"
-      time: "12:00"
-    ignore:
-      - dependency-name: "*"
-        update-types: ["version-update:semver-minor"]
-      - dependency-name: "*"
-        update-types: ["version-update:semver-patch"]
+      # timezone: "Asia/Tokyo"
+      # time: "11:57"
+    # ignore:
+    #   - dependency-name: "*"
+    #     update-types: ["version-update:semver-minor"]
+    #   - dependency-name: "*"
+    #     update-types: ["version-update:semver-patch"]
+
