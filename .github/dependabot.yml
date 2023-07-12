@@ -4,8 +4,8 @@ updates:
     directory: "/"
     schedule:
       interval: "daily"
-      # timezone: "Asia/Tokyo"
-      # time: "11:57"
+      timezone: "Asia/Tokyo"
+      time: "14:22"
     # ignore:
     #   - dependency-name: "*"
     #     update-types: ["version-update:semver-minor"]
